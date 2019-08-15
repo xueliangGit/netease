@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仿网易h5</title>
+    <!--IMPORT CSS-->
+    <!-- <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/index.min.css"> -->
+
+    <!--PRE-FIX-FREE:设置前缀的插件-->
+    <!-- <script src="js/prefixfree.min.js"></script> -->
+
+    <!--REM-->
+    <script>
+        ~function anonymous(window) {
+            let computedREM = function computedREM() {
+                let winW = document.documentElement.clientWidth,
+                    desW = 750;
+                if (winW >= 750) {
+                    document.documentElement.style.fontSize = '100px';
+                    return;
+                }
+                document.documentElement.style.fontSize = winW / desW * 100 + 'px';
+            };
+            computedREM();
+            window.addEventListener('resize', computedREM);
+        }(window);
+    </script>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="box">
+        <div class="header">
+            <div class="login-bar">
+                <div class="header_l"><span></span></div>
+                <div class="header_m">
+                    <h1>网易</h1>
+                </div>
+                <div class="header_r">
+                    <div class="header_r_email"><span>邮箱</span></div>
+                    <div class="header_r_list">
+                        <ul>
+                            <li><a href="https://email.163.com/m/?df=3g_163"><span>网易邮箱</span></a></li>
+                            <li><a href="https://open.163.com/?from=3gwap"><span>网易公开课</span></a></li>
+                            <li><a
+                                    href="http://yuedu.3g.163.com/?_tdchannel=6Xtomdolp&amp;_tdcid=qtiomfvgx"><span>网易云阅读</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="con_tab_box">
+                <div class="con_tab">
+                    <ul>
+                        <li data-tab="yaowen" class="con_tab_active">要闻</li>
+                        <li data-tab="tuijian">推荐</li>
+                        <li data-tab="yuanchuang">原创</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="con_con">
+                <div class="con_nav wap-section" data-type="closed">
+                    <ul class="con_nav_linklist">
+                        <li class="link-item">
+                            <a href="https://3g.163.com/touch/news/?ver=c&amp;clickfrom=index2018_header">新闻</a></li>
+                        <li class="link-item">
+                            <a href="https://3g.163.com/touch/ent/?ver=c&amp;clickfrom=index2018_header">娱乐</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/sports/?ver=c&amp;clickfrom=index2018_header">体育</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/money/?ver=c&amp;clickfrom=index2018_header">财经</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/photo/?ver=c&amp;clickfrom=index2018_header">图片</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/auto/?ver=c&amp;clickfrom=index2018_header">汽车</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/idol?from=index3g?clickfrom=index2018_header">星闻</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/war/?ver=c&amp;clickfrom=index2018_header">军事</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/liveshow/?ver=c&amp;clickfrom=index2018_header">直播</a>
+                        </li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/video/?ver=c&amp;clickfrom=index2018_header">视频</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/tech/?ver=c&amp;clickfrom=index2018_header">科技</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/mobile/?ver=c&amp;clickfrom=index2018_header">手机</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/digi/?ver=c&amp;clickfrom=index2018_header">数码</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/local/?ver=c&amp;clickfrom=index2018_header">本地</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/dy/?ver=c&amp;clickfrom=index2018_header">网易号</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/joke/?ver=c&amp;clickfrom=index2018_header">段子</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/lady/?ver=c&amp;clickfrom=index2018_header">时尚</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/tie/?ver=c&amp;clickfrom=index2018_header">跟贴</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/game/?ver=c&amp;clickfrom=index2018_header">游戏</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/edu/?ver=c&amp;clickfrom=index2018_header">教育</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/open/?ver=c&amp;clickfrom=index2018_header">公开课</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/jiankang/?ver=c&amp;clickfrom=index2018_header">健康</a>
+                        </li>
+                        <!---->
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/travel/?ver=c&amp;clickfrom=index2018_header">旅游</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/baby/?ver=c&amp;clickfrom=index2018_header">亲子</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/art/?ver=c&amp;clickfrom=index2018_header">艺术</a></li>
+                        <li class="link-item"><a
+                                href="https://3g.163.com/touch/shuangchuang/?ver=c&amp;clickfrom=index2018_header">双创</a>
+                        </li>
+                        <li class="link-item"><a href="http://house.3g.163.com/?clickfrom=index2018_header">房产</a></li>
+                        <li class="link-item"><a href="http://home.3g.163.com/?clickfrom=index2018_header">家居</a></li>
+                        <!---->
+                        <!---->
+                    </ul>
+                    <span class="toggle-btn"><em>展开/收起</em></span>
+                </div>
+
+                <div class="con_section wap-section">
+                    <div class="con_top">
+                        <h2>今日要闻</h2>
+                    </div>
+                    <ul class="con_info"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="side_box">
+            <div class="side_con">
+                <input type="text" placeholder="邮箱">
+                <input type="text" placeholder="密码">
+                <input type="button" value="登录">
+                <div class="side_a"><a href="">忘记密码</a><a href="">去注册</a></div>
+                <img src="images/1.png" alt="">
+            </div>
+            <div class="side_mask"></div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <!--IMPORT JS-->
+    <!-- <script src="js/zepto.min.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script src="js/makisu.min.js"></script>
+<script src="js/index.js"></script> -->
+</body>
+
+</html>
