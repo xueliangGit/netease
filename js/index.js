@@ -1,9 +1,10 @@
 /*
- * @Author: xuxueliang
+ * @Author: baijuan
  * @Date: 2019-08-15 11:22:15
- * @LastEditors: xuxueliang
- * @LastEditTime: 2019-08-15 12:01:06
+ * @LastEditors: baijuan
+ * @LastEditTime: 2019-08-15 12:16:03
  */
+
 let home = {
   loginIcon: '',
   sideBox: '',
